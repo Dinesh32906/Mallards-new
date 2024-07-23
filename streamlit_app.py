@@ -131,8 +131,8 @@ def complete(myquestion, session):
 def main():
     init_session_state()
     
-    # Display the logo
-    st.image("logo.png", use_column_width=True)  # Adjust the path if needed
+    # Display the logo with a smaller width
+    st.image("logo.png", width=150)  # Adjust the width as needed
 
     st.title("💬 Mallards AI Assistance")
     st.write("Ask your questions about Mallards below:")
